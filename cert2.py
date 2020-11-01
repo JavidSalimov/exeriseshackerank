@@ -5,7 +5,7 @@ class Car:
         self.name = name 
 
     def __str__(self):
-...         print("Car with the maximum speed of {speed} {unit}")
+...         return f"Car with the maximum speed of {speed} {unit}"
 
          
 class Boat:
@@ -13,4 +13,4 @@ class Boat:
         self.id = id  
         self.name = name 
 
-        print("Boat with the maximum speed of {speed} knots")          
+        return f"Boat with the maximum speed of {speed} knots"          
