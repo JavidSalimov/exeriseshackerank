@@ -18,3 +18,4 @@ if __name__ == '__main__':
             a.pop()
         elif z[0]=='reverse':
             a.reverse()    
+#  https://www.hackerrank.com/challenges/python-lists/problem bu linkde tapshiriqa baxa bilersen
